@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000316] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000335] (-) JobUnselected: {'identifier': 'px4_offboard'}
+[0.000351] (-) JobUnselected: {'identifier': 'px4_offboard_position'}
+[0.000366] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000465] (-) EventReactorShutdown: {}

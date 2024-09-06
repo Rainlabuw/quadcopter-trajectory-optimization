@@ -1,0 +1,145 @@
+[0.134s] Invoking command in '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/my_package:/opt/ros/humble /home/mist/.local/bin/cmake /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com
+[0.183s] -- The C compiler identification is GNU 7.5.0
+[0.218s] -- The CXX compiler identification is GNU 10.5.0
+[0.225s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.326s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.627s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.630s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.635s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.672s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.674s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.699s] -- Found px4_msgs: 2.0.1 (/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_msgs/share/px4_msgs/cmake)
+[0.715s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.749s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.840s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.870s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.919s] -- Found Threads: TRUE  
+[0.954s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.972s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.978s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.044s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.046s] -- Configured cppcheck include dirs: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/src/px4_ros_com/include/px4_ros_com>
+[1.046s] -- Configured cppcheck exclude dirs and/or files: 
+[1.048s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.048s] -- Configured cpplint exclude dirs and/or files: 
+[1.049s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.050s] -- Added test 'lint_cmake' to check CMake code style
+[1.050s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.052s] -- Added test 'uncrustify' to check C / C++ code style
+[1.052s] -- Configured uncrustify additional arguments: 
+[1.053s] -- Added test 'xmllint' to check XML markup files
+[1.054s] -- Configuring done (0.9s)
+[1.068s] -- Generating done (0.0s)
+[1.069s] -- Build files have been written to: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com
+[1.077s] Invoked command in '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/my_package:/opt/ros/humble /home/mist/.local/bin/cmake /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com
+[1.077s] Invoking command in '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/my_package:/opt/ros/humble /home/mist/.local/bin/cmake --build /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com -- -j24 -l24
+[1.110s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.110s] [ 16%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.111s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.111s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.111s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.111s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.112s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[1.264s] running egg_info
+[1.264s] creating px4_ros_com.egg-info
+[1.275s] writing px4_ros_com.egg-info/PKG-INFO
+[1.275s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.275s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.275s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.309s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.309s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.325s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[3.828s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[3.930s] [ 58%] Built target debug_vect_advertiser
+[4.397s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[4.541s] [ 66%] Built target offboard_control
+[4.711s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[4.845s] [ 75%] Built target offboard_control_srv
+[5.355s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[5.481s] [ 83%] Built target frame_transforms
+[5.768s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[5.965s] [ 91%] Built target sensor_combined_listener
+[6.386s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[6.574s] [100%] Built target vehicle_gps_position_listener
+[6.580s] Invoked command in '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/my_package:/opt/ros/humble /home/mist/.local/bin/cmake --build /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com -- -j24 -l24
+[6.645s] Invoking command in '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/my_package:/opt/ros/humble /home/mist/.local/bin/cmake --install /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com
+[6.662s] -- Install configuration: ""
+[6.663s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[6.664s] -- Set runtime path of "/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[6.664s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[6.665s] -- Set runtime path of "/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[6.665s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[6.666s] -- Set runtime path of "/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[6.666s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[6.666s] -- Set runtime path of "/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[6.666s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[6.667s] -- Set runtime path of "/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[6.667s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[6.667s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[6.667s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/include/px4_ros_com
+[6.667s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[6.667s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/libframe_transforms.so
+[6.669s] -- Set runtime path of "/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//launch
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//test
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[6.669s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[6.691s] Listing '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[6.691s] Compiling '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[6.691s] Compiling '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[6.694s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[6.694s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[6.695s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/package.dsv
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[6.696s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[6.697s] -- Installing: /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/px4_ros_com/share/px4_ros_com/package.xml
+[6.700s] Invoked command in '/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/install/my_package:/opt/ros/humble /home/mist/.local/bin/cmake --install /home/mist/Documents/projects/DroneProject/ws_quadcopter_traj_opt/build/px4_ros_com
